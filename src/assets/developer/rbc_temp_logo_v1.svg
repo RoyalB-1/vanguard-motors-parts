@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 48" width="190" height="48" fill="none" role="img" aria-label="Royal Brand Circuit (RBC) — Temporary Developer Logo Version 1">
+  <!-- Dark integrated background (Preserved dark background of RBC temporary identity) -->
+  <rect width="190" height="48" rx="8" fill="#070c18" stroke="#162035" stroke-width="1" />
+  
+  <!-- Circuit Nodes & Grid Accents -->
+  <g opacity="0.35">
+    <circle cx="16" cy="14" r="1.5" fill="#38bdf8" />
+    <circle cx="34" cy="14" r="1.5" fill="#ea580c" />
+    <circle cx="25" cy="36" r="1.5" fill="#38bdf8" />
+    <path d="M16 14 H28 L34 20 V30 L28 36" stroke="#38bdf8" stroke-width="0.8" stroke-dasharray="2 2" />
+    <path d="M34 14 H42" stroke="#ea580c" stroke-width="0.8" />
+  </g>
+
+  <!-- Emblem Icon: Royal Circuit Hexagon with RBC Monogram -->
+  <g transform="translate(10, 8)">
+    <!-- Hexagon Frame -->
+    <polygon points="16,2 29,9 29,23 16,30 3,23 3,9" fill="#0d1527" stroke="#ea580c" stroke-width="1.5" />
+    <polygon points="16,5 26,11 26,21 16,27 6,21 6,11" fill="#111c33" stroke="#253554" stroke-width="1" />
+    
+    <!-- Crown / Circuit Accent atop Hexagon -->
+    <path d="M10 11 L13 14 L16 9 L19 14 L22 11" stroke="#f97316" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- RBC Letters Inside Hexagon -->
+    <text x="16" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">RBC</text>
+  </g>
+
+  <!-- Typography: Royal Brand Circuit -->
+  <g transform="translate(48, 12)">
+    <!-- Primary Brand Name -->
+    <text x="0" y="13" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#f8fafc" letter-spacing="0.6">
+      ROYAL BRAND CIRCUIT
+    </text>
+    
+    <!-- Agency Sub-line & Version Reference -->
+    <text x="0" y="24" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="7.5" font-weight="600" fill="#ea580c" letter-spacing="1">
+      DEVELOPER AGENCY <tspan fill="#64748b">• V1</tspan>
+    </text>
+  </g>
+</svg>

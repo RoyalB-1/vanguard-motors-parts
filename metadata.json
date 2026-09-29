@@ -1,0 +1,6 @@
+{
+  "name": "VANGUARD Motors & Parts",
+  "description": "Your trusted source for vehicles & auto parts in Nigeria. Quality vehicles, precision spare parts sourcing, and nationwide delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
