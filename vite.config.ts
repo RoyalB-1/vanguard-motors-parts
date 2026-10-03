@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/vanguard-motors-parts/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
